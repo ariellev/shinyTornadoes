@@ -1,0 +1,14 @@
+/* Whole document: */
+path {
+    transition: fill .4s ease;
+ }
+ 
+path.leaflet-clickable:hover {
+  /* Fade in while hovering */
+  fill:deepskyblue;
+  color: deepskyblue;
+  dashArray: '';
+  weight: 5;
+  opacity: 0.7;
+  color: #cccccc;
+}
